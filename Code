@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AP Study Tool</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="app" class="min-h-screen bg-pink-100 text-pink-900 font-sans">
+    <header class="text-center py-10 bg-pink-200 shadow-md">
+      <h1 class="text-4xl font-bold tracking-wide">AP Study Tool</h1>
+      <p class="text-pink-800 mt-2">the perfect tool to help you slay your AP exams 🎓✨</p>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+      <section class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">APUSH</h2>
+          <p class="text-pink-700 mb-4">timelines, key events, people, and more</p>
+          <button onclick="showPage('apush')" class="text-pink-500 underline">
+            go to APUSH
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">AP CSP</h2>
+          <p class="text-pink-700 mb-4">big ideas, algorithms, and concepts</p>
+          <button onclick="showPage('apcsp')" class="text-pink-500 underline">
+            go to AP CSP
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">AP CSA</h2>
+          <p class="text-pink-700 mb-4">Java programming, data structures, algorithms</p>
+          <button onclick="showPage('apcsa')" class="text-pink-500 underline">
+            go to AP CSA
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">AP Bio</h2>
+          <p class="text-pink-700 mb-4">cells, genetics, evolution, ecology</p>
+          <button onclick="showPage('apbio')" class="text-pink-500 underline">
+            go to AP Bio
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">AP Chemistry</h2>
+          <p class="text-pink-700 mb-4">atoms, bonding, reactions, and lab skills</p>
+          <button onclick="showPage('apchem')" class="text-pink-500 underline">
+            go to AP Chem
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
+          <h2 class="text-2xl font-semibold mb-2">AP Pre-Calculus</h2>
+          <p class="text-pink-700 mb-4">functions, trigonometry, limits, etc</p>
+          <button onclick="showPage('apprecalc')" class="text-pink-500 underline">
+            go to AP Pre-Calc
+          </button>
+        </div>
+      </section>
+
+      <section class="mt-10 text-center">
+        <h2 class="text-2xl font-bold">join the AP study club 💌</h2>
+        <p class="text-pink-700 mt-2">get updates, practice sets, and weekly tips in your email!</p>
+        <form onsubmit="handleSubmit(event)" class="mt-4 flex flex-col md:flex-row items-center justify-center gap-4">
+          <input
+            type="email"
+            required
+            placeholder="your@email.com"
+            class="px-4 py-2 rounded-full border border-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400"
+          />
+          <button
+            type="submit"
+            class="bg-pink-400 text-white px-6 py-2 rounded-full shadow hover:bg-pink-500 transition"
+          >
+            sign up
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">
+      AP Study Tool - helpful, aesthetic, and getting you ready to pass 💗
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
