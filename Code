@@ -34,7 +34,7 @@
 
         <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-300 transition">
           <h2 class="text-2xl font-semibold mb-2">AP CSA</h2>
-          <p class="text-pink-700 mb-4">Java programming, data structures, algorithms</p>
+          <p class="text-pink-700 mb-4">fundamentals of java, data structures, etc</p>
           <button onclick="showPage('apcsa')" class="text-pink-500 underline">
             go to AP CSA
           </button>
@@ -44,7 +44,7 @@
           <h2 class="text-2xl font-semibold mb-2">AP Bio</h2>
           <p class="text-pink-700 mb-4">cells, genetics, evolution, ecology</p>
           <button onclick="showPage('apbio')" class="text-pink-500 underline">
-            go to AP Bio
+            go to AP Biology
           </button>
         </div>
 
@@ -52,7 +52,7 @@
           <h2 class="text-2xl font-semibold mb-2">AP Chemistry</h2>
           <p class="text-pink-700 mb-4">atoms, bonding, reactions, and lab skills</p>
           <button onclick="showPage('apchem')" class="text-pink-500 underline">
-            go to AP Chem
+            go to AP Chemistry
           </button>
         </div>
 
@@ -86,7 +86,7 @@
     </main>
 
     <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">
-      AP Study Tool - helpful, aesthetic, and getting you ready to pass 💗
+      AP Study Tool - setting you up for success! 💗
     </footer>
   </div>
 
