@@ -135,12 +135,11 @@ function showPage(page) {
       </div>
     `;
   } else if (page === 'home') {
-    location.reload(); // Simple way to go back to home
+    location.reload();
   }
-  // Add other pages as needed
 }
 
 function handleSubmit(event) {
   event.preventDefault();
-  alert("Subscribed! You'll now get cute lil study emails ✨");
+  alert("thank you for subscribing! stay tuned for weekly emails ✨");
 }
