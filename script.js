@@ -142,4 +142,4 @@ function showPage(page) {
 function handleSubmit(event) {
   event.preventDefault();
   alert("thank you for subscribing! stay tuned for weekly emails ✨");
-} =
+}
