@@ -126,82 +126,122 @@ function showPage(page) {
     `;
   } else if (page === 'apcsa') {
     app.innerHTML = `
-      <div class="min-h-screen bg-pink-100 text-pink-900 p-6">
+      <div class="min-h-screen bg-pink-100 text-pink-900 font-sans p-6">
         <header class="text-center py-8 bg-pink-200 rounded-xl shadow-md">
           <h1 class="text-4xl font-bold">AP CSA ☕</h1>
-          <p class="text-pink-800 mt-2">object-oriented Java programming essentials</p>
+          <p class="text-pink-800 mt-2">master Java, object-oriented programming, and data structures!</p>
         </header>
+
         <main class="max-w-4xl mx-auto mt-8 space-y-6">
           <section class="bg-white p-6 rounded-2xl shadow space-y-4">
-            <h2 class="text-2xl font-semibold">Units</h2>
-            <ul class="list-disc list-inside text-pink-700 space-y-1">
-              <li>Primitive Types</li>
-              <li>Objects and Classes</li>
-              <li>Boolean Expressions and if Statements</li>
-              <li>Iteration (for, while loops)</li>
-              <li>Writing Classes and Methods</li>
-              <li>Array and ArrayList</li>
-              <li>Inheritance and Polymorphism</li>
+            <h2 class="text-2xl font-semibold mb-2">Helpful Resources</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-2">
+              <li><a href="https://runestone.academy/runestone/books/published/csawesome/index.html" class="text-pink-500 underline" target="_blank">CSAwesome Interactive Book</a></li>
+              <li><a href="https://apcentral.collegeboard.org/courses/ap-computer-science-a" class="text-pink-500 underline" target="_blank">College Board AP CSA Page</a></li>
+              <li><a href="https://codingbat.com/java" class="text-pink-500 underline" target="_blank">CodingBat Java Practice</a></li>
             </ul>
           </section>
+
+          <section class="bg-white p-6 rounded-2xl shadow space-y-4">
+            <h2 class="text-2xl font-semibold mb-2">Tips for Success</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-1">
+              <li>Practice writing code by hand for the FRQs</li>
+              <li>Review the Java Quick Reference sheet often</li>
+              <li>Understand class design, constructors, and inheritance</li>
+              <li>Don’t memorize — focus on logic and patterns</li>
+            </ul>
+          </section>
+
           <div class="text-center">
-            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">← back to home</button>
+            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">
+              ← back to home
+            </button>
           </div>
         </main>
-        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">© 2025 AP Study Helper — CSA edition 💕</footer>
+
+        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">
+          © 2025 AP Study Helper — CSA edition 💕
+        </footer>
       </div>
     `;
   } else if (page === 'apbio') {
     app.innerHTML = `
-      <div class="min-h-screen bg-pink-100 text-pink-900 p-6">
+      <div class="min-h-screen bg-pink-100 text-pink-900 font-sans p-6">
         <header class="text-center py-8 bg-pink-200 rounded-xl shadow-md">
           <h1 class="text-4xl font-bold">AP Biology 🧬</h1>
-          <p class="text-pink-800 mt-2">study cells, genetics, evolution, and more!</p>
+          <p class="text-pink-800 mt-2">explore life from cells to ecosystems!</p>
         </header>
+
         <main class="max-w-4xl mx-auto mt-8 space-y-6">
           <section class="bg-white p-6 rounded-2xl shadow space-y-4">
-            <h2 class="text-2xl font-semibold">Key Units</h2>
-            <ul class="list-disc list-inside text-pink-700 space-y-1">
-              <li>Cell Structure & Function</li>
-              <li>Cell Communication & Cycle</li>
-              <li>Genetics & Heredity</li>
-              <li>Gene Expression & Regulation</li>
-              <li>Natural Selection</li>
-              <li>Ecology</li>
+            <h2 class="text-2xl font-semibold mb-2">Helpful Resources</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-2">
+              <li><a href="https://www.youtube.com/@bozemanbiology" class="text-pink-500 underline" target="_blank">Bozeman Science Videos</a></li>
+              <li><a href="https://www.khanacademy.org/science/ap-biology" class="text-pink-500 underline" target="_blank">Khan Academy AP Bio</a></li>
+              <li><a href="https://apcentral.collegeboard.org/courses/ap-biology" class="text-pink-500 underline" target="_blank">College Board AP Biology</a></li>
             </ul>
           </section>
+
+          <section class="bg-white p-6 rounded-2xl shadow space-y-4">
+            <h2 class="text-2xl font-semibold mb-2">Tips for Success</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-1">
+              <li>Focus on understanding processes over memorization</li>
+              <li>Know your experimental design and data analysis</li>
+              <li>Practice explaining biological reasoning</li>
+              <li>Master cell structure, genetics, and feedback loops</li>
+            </ul>
+          </section>
+
           <div class="text-center">
-            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">← back to home</button>
+            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">
+              ← back to home
+            </button>
           </div>
         </main>
-        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">© 2025 AP Study Helper — Bio edition 💕</footer>
+
+        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">
+          © 2025 AP Study Helper — Bio edition 💕
+        </footer>
       </div>
     `;
   } else if (page === 'apchem') {
     app.innerHTML = `
-      <div class="min-h-screen bg-pink-100 text-pink-900 p-6">
+      <div class="min-h-screen bg-pink-100 text-pink-900 font-sans p-6">
         <header class="text-center py-8 bg-pink-200 rounded-xl shadow-md">
           <h1 class="text-4xl font-bold">AP Chemistry ⚗️</h1>
-          <p class="text-pink-800 mt-2">concepts, reactions, and lab mastery</p>
+          <p class="text-pink-800 mt-2">bonding, reactions, equilibria, and lab skills simplified!</p>
         </header>
+
         <main class="max-w-4xl mx-auto mt-8 space-y-6">
           <section class="bg-white p-6 rounded-2xl shadow space-y-4">
-            <h2 class="text-2xl font-semibold">Core Topics</h2>
-            <ul class="list-disc list-inside text-pink-700 space-y-1">
-              <li>Atomic Structure & Periodicity</li>
-              <li>Chemical Bonding & IMF</li>
-              <li>Reactions, Stoichiometry</li>
-              <li>Thermodynamics</li>
-              <li>Equilibrium, Kinetics</li>
-              <li>Acids & Bases</li>
-              <li>Electrochemistry</li>
+            <h2 class="text-2xl font-semibold mb-2">Helpful Resources</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-2">
+              <li><a href="https://www.youtube.com/@HeimlersHistory" class="text-pink-500 underline" target="_blank">Heimler’s Chemistry Playlist</a></li>
+              <li><a href="https://www.khanacademy.org/science/ap-chemistry" class="text-pink-500 underline" target="_blank">Khan Academy AP Chemistry</a></li>
+              <li><a href="https://apcentral.collegeboard.org/courses/ap-chemistry" class="text-pink-500 underline" target="_blank">College Board AP Chemistry</a></li>
             </ul>
           </section>
+
+          <section class="bg-white p-6 rounded-2xl shadow space-y-4">
+            <h2 class="text-2xl font-semibold mb-2">Tips for Success</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-1">
+              <li>Memorize strong acids/bases and solubility rules</li>
+              <li>Understand conceptual stoichiometry</li>
+              <li>Practice equilibrium and rate law problems</li>
+              <li>Familiarize yourself with lab procedure and analysis</li>
+            </ul>
+          </section>
+
           <div class="text-center">
-            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">← back to home</button>
+            <button onclick="showPage('home')" class="mt-6 px-6 py-2 rounded-full bg-pink-300 text-white shadow hover:bg-pink-400">
+              ← back to home
+            </button>
           </div>
         </main>
-        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">© 2025 AP Study Helper — Chem edition 💕</footer>
+
+        <footer class="mt-12 text-center text-pink-600 text-sm py-4 border-t border-pink-200">
+          © 2025 AP Study Helper — Chemistry edition 💕
+        </footer>
       </div>
     `;
   } else if (page === 'apprecalc') {
