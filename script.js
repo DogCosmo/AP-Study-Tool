@@ -206,20 +206,29 @@ function showPage(page) {
     `;
   } else if (page === 'apprecalc') {
     app.innerHTML = `
-      <div class="min-h-screen bg-pink-100 text-pink-900 p-6">
+      <div class="min-h-screen bg-pink-100 text-pink-900 font-sans p-6">
         <header class="text-center py-8 bg-pink-200 rounded-xl shadow-md">
           <h1 class="text-4xl font-bold">AP Pre-Calc 📈</h1>
-          <p class="text-pink-800 mt-2">functions, graphs, trigonometry & more!</p>
+          <p class="text-pink-800 mt-2">build your foundation for calculus success!</p>
         </header>
+
         <main class="max-w-4xl mx-auto mt-8 space-y-6">
           <section class="bg-white p-6 rounded-2xl shadow space-y-4">
-            <h2 class="text-2xl font-semibold">Topics</h2>
+            <h2 class="text-2xl font-semibold mb-2">Helpful Resources</h2>
+            <ul class="list-disc list-inside text-pink-700 space-y-2">
+              <li><a href="https://www.khanacademy.org/math/ap-precalculus" class="text-pink-500 underline" target="_blank">Khan Academy AP Precalculus</a></li>
+              <li><a href="https://apcentral.collegeboard.org/courses/ap-precalculus" class="text-pink-500 underline" target="_blank">College Board Pre-Calc</a></li>
+              <li><a href="https://www.youtube.com/@TheOrganicChemistryTutor" class="text-pink-500 underline" target="_blank">Organic Chemistry Tutor Videos</a></li>
+            </ul>
+          </section>
+
+          <section class="bg-white p-6 rounded-2xl shadow space-y-4">
+            <h2 class="text-2xl font-semibold mb-2">Tips for Success</h2>
             <ul class="list-disc list-inside text-pink-700 space-y-1">
-              <li>Polynomial & Rational Functions</li>
-              <li>Trigonometry & Unit Circle</li>
-              <li>Exponential & Logarithmic Functions</li>
-              <li>Parametric & Polar Equations</li>
-              <li>Sequences, Series & Limits</li>
+              <li>Master function transformations and compositions</li>
+              <li>Practice graphing polynomial and rational functions</li>
+              <li>Understand unit circle and trig identities deeply</li>
+              <li>Use Desmos or graphing tools to visualize problems</li>
             </ul>
           </section>
           <div class="text-center">
